@@ -231,3 +231,13 @@ margin: 0 0 0 0;}
     font-size: 6vw;
     font-weight: bold;
 padding-top: 1.25rem;}
+
+.outerCounter{
+    margin: 0px auto;
+    padding-top: 5%;
+    padding-bottom: 22px;
+}
+.counter{
+    margin: 0px auto;
+
+}
