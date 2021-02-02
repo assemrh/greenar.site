@@ -72,6 +72,119 @@
 </div>
     <div id="son"></div>
 
+
+    <form action="sendEmail.php" method="post" id="myForm" name="myForm" class="siparis_verme_formu" onsubmit="return validat();">
+        <div class="container" id="siparisdiv" style="background: #2c3a47;text-align:left;" >       
+          <div class="row">
+            <div class="col-xs-12 col-sm-12" id="siparisdivi">
+       
+              <div class="center_layout" id="mobal">
+                <div style="width: 100%;">
+             <img style="width: 100%;max-width: 100%;border: 5px solid #ffe27e;margin-top: 25px;" src="Images/indirim.gif" />
+          </div>
+              </div>
+       
+              <div class="row">
+       
+               
+       
+                <div class="col-xs-12  ptb15">
+       
+       
+       
+       
+          <span class="titleSpan"> 
+            برجاء اختيار العرض _______
+          </span>
+       
+       
+       
+            </div>
+       
+                  <div class="mb15">
+                    <div class="mb5"> الأسم بالكامل :  </div>
+                    <div><input type="text" name="name" class="form-control" required="" /></div>
+                  </div>
+       
+                  <div class="mb15">
+                    <div class="mb5"> رقم الهاتف :  </div>
+                    <div><input type="tel" name="telephone" class="form-control" required="" /></div>
+                  </div>
+                       <div class="mb15">
+                               <div class="mb5">العرض المطلوب:</div>
+                                    <div>
+                                           <select id="currency" name="offer" onchange="goto();" class="form-control" style="margin:auto;">
+                                                   <option selected="selected" value="0" >الرجاء اختيار العرض المطلوب </option>
+                                                   <option selected="" value="1001" />علبة جرين بابل   ١٨٥ درهم اماراتي  
+                                                   <option selected="" value="1002" />٢ علبة جرين بابل  ٣١٥ درهم اماراتي 
+                                                   <option selected="" value="1003" />٣ علب جرين بابل + علبة هدية ٤٤٠ درهم   
+                                                   <option selected="" value="1005" />٥ علب جرين بابل + علبة هدية ٥٥٠ درهم   
+                                                   <option selected="" value="0" />الرجاء اختيار العرض المطلوب 
+       
+                                           </select>
+                               </div>
+                       </div>
+       
+       
+                  <div class="mb15">
+                    <div class="mb5">دولة :  </div>
+                    <div>
+                         <select id="ulke" name="ulke" onchange="goto();" class="form-control" style="margin:auto;">
+                                   <option selected="selected" value="0" />برجاء اختيار الدولة 
+                                   <option selected="selected" value="AE" />الامارات العربية المتحدة 
+                                   <option selected="selected" value="SA" />السعودية 
+                                   <option selected="selected" value="JO" />الأردن 
+                                   <option selected="selected" value="OM" />سلطنة عمان 
+                                   <option selected="selected" value="BH" />البحرين 
+                                   <option selected="selected" value="KW" />الكويت 
+                                  <option selected="selected" value="LB" />لبنان 
+                                   <option selected="selected" value="QA" />قطر 
+                                   <option selected="selected" value="other" />دولة أخرى 
+                           </select>            </div>
+                  </div>
+                  
+                  <div class="mb15">
+                    <div class="mb5"> العنوان بالكامل :  </div>
+                    <div><textarea name="adress" id="" cols="30" rows="3" class="form-control" required=""></textarea></div>
+                  </div>
+       
+       
+        <span class="mb5">  <input type="checkbox" style="width: 12px;height: 12px;" checked="" />  <a style="color: white;" data-toggle="modal" data-target="#myModal"> أوافق على الشروط ________ </a></span>
+       
+       
+       
+                  <div class="text-right text-xs-center" style="    margin-top: 20px;">
+       
+        <input id="sikmaben" type="submit" value="√ تأكيد الطلب" style="width:100%;margin-right:auto;margin-left:auto;height:35px;background:#42af48;color:#FFF;font-weight:bolder; border:0 none;
+           cursor:pointer;font-size:22px;height:45px; margin-bottom: 50px;" class="styled-button-1" hidden/>
+           <button id="btnsub" onclick="sendEmail()" تأكيد الطلب" style="width:100%;margin-right:auto;margin-left:auto;height:35px;background:#42af48;color:#FFF;font-weight:bolder; border:0 none;
+           cursor:pointer;font-size:22px;height:45px; margin-bottom: 50px;" class="styled-button-1">√ تأكيد الطلب</button>
+       
+                  </div>
+       
+       
+       
+                </div>
+              </div>
+       
+            </div>
+        
+          </div>
+       
+       
+       
+       
+       
+       
+        </div>
+       
+       
+       
+           </form> 
+       
+
+
+
     <script>
         // Set the date we're counting down to
         

@@ -53,7 +53,53 @@ body{
             padding-top: 3px;
             }
 }
+@media screen and (max-width: 409px)
+{
 
+    .img-click {
+        padding: 8px;
+        width: 29%;
+        margin-left: 50%;
+    margin-top: -8%;
+    }
+
+	#ustsayac_dakika{
+        float: left;
+        text-align: center;
+        background-color: #2f2f2f;
+        font-size: 13px;
+        font-weight: bolder;
+        color: #fff;
+        padding: 5px;
+        }
+
+    #ust_saat {
+        padding: 7px;
+        width: 23%;
+        float: right;
+    display: flex;
+    }
+
+    #ustsayac_saniye{
+        float: left;
+        text-align: center;
+        background-color: #2f2f2f;
+        font-size: 13px;
+        font-weight: bolder;
+        color: #fff;
+        padding: 5px;
+        }
+
+        .takip {
+            float: left;
+            max-width: 66%;
+            text-align: center;
+            font-weight: 600;
+            color: #fff;
+            padding: 8px;
+            padding-top: 3px;
+            }
+}
 .takip{
     float:right;
     font-size:14px; 
@@ -119,7 +165,7 @@ body{
     /* margin: 0; */
     font-family: ProximaBold;
     text-align: left;
-    line-height: 62px;
+    line-height: 2rem;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 18px;
@@ -129,7 +175,7 @@ body{
 #quata2 {
     float: left;
     width: 70%;
-    font-size: 60px;
+    font-size: 2rem;
     background-color: #c11ca6;
     color: #c5c5c5;
     font-family: ProximaBold;
@@ -166,21 +212,21 @@ body{
     /* width: 100%; */
     margin: 0px auto;
     font-size: 25px;
-    height: 8rem;
+    height: 6rem;
 }
 #h {
     border-radius: 15px;
     float: left;
-    line-height: 10vw;
+    line-height: 6rem;
     width: 27%;
-    font-size: 6vw;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
     margin: 0 5% 0 0;
 }
 .sayac {
     float: left;
-    width: 47%;
+    width: 57%;
 }
 
 .kalanurun span {
@@ -196,9 +242,9 @@ body{
 #m {
     border-radius: 15px;
     float: left;
-    line-height: 10vw;
+    line-height: 6rem;
     width: 27%;
-    font-size: 6vw;
+    font-size: 2rem;
     text-align: center;
     font-weight: bold;
     margin: 0 5% 0 0;
@@ -210,7 +256,7 @@ body{
 }
 
 .numbs {
-    font-size: 50px;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     text-align: left;
@@ -220,17 +266,19 @@ body{
 #s {
 border-radius: 15px;
 float: left;
-line-height: 10vw;
+line-height: 6rem;
 width: 27%;
-font-size: 6vw;
+font-size: 2rem;
 text-align: center;
 font-weight: bold;
 margin: 0 0 0 0;}
 
 #vals text{
-    font-size: 6vw;
+    font-size: 3rem;
+    line-height: 6rem;
+
     font-weight: bold;
-padding-top: 1.25rem;}
+/* padding-top: 1.25rem;} */
 
 .outerCounter{
     margin: 0px auto;
