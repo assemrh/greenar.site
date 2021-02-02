@@ -8,19 +8,154 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
     <div class="top-nav">
+    <a href="#son">
+
         <div class="takip">الوقت الباقي علي إنتهاء عرض 40% تخفيض</div>
         <div id="ust_saat" class="top-clack" style="float:right;">
             <div id="ustsayac_dakika">21<br>دقيقة </div>
             <div id="ustsayac_saniye">15<br>ثانية </div>
         </div>
-        <a href="#">
+    </a>
+        <a href="#son">
             <img class="img-click" src="Images/sayac_btn.png" alt="اضغط هنا للطلبس"/>
         </a>
     </div>
+    <a href="#son">
+
     <div class="body-img" >
         <img src="Images/test-sh3.jpg" alt="">
+        <img src="Images/top-t2.jpg" alt="">
     </div>
+    </a>
+    <div class="bannerCounterDiv">
+
+
+  
+  
+  
+  
+        <span class="titleSpan">فقط حتى نهاية اليوم</span>
+
+        <span class="subtitleSpan">تخفيض 60%<br> </span>
+  
+  
+  
+  
+        <div class="outerCounter" style="
+    margin: 0px auto;
+     padding-top: 5%;
+    padding-bottom: 22px;
+">
+
+            <div class="counter" style="
+    margin: 0px auto;
+">
+
+                <div class="kalanurun">
+
+                    <span>المتبقى فى المخزن</span>
+
+
+
+                    <p id="quata2" class="quata2">00<font style="color:#ffffff">75</font></p>
+
+                </div>
+
+                <div class="sayac">
+                    <span>الوقت المتبقى</span>
+
+
+
+                    <div class="defaultCountdown hasCountdown">
+                      <div id="timer"><div id="vals">
+                        <div id="h" class="numbs">00</div><text style="float: left;">:</text>
+                        <div id="m" class="numbs">00</div><text style="float: left;">:</text>
+                        <div id="s" class="numbs">00</div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+
+        </div>
+  
+
+  <form action="actionerr.php" method="post" id="myForm" name="myForm" class="siparis_verme_formu" onsubmit="return validat();">
+
+
+  <span class="titleSpan"> يستخدم ومناسب للرجال والنساء<br>  ضمان عام كامل<br> </span>
+  <span class="subtitleSpan">  برجاء التأكد من الدولة</span>
+
+ 
+
+
+ <select id="currency" name="country" onchange="goto();" class="form-control" style="width: 90%;margin:auto;">
+           <option selected="selected" value="0">برجاء اختيار الدولة</option>
+           <option selected="selected" value="AE">الامارات العربية المتحدة</option>
+           <option selected="selected" value="SA">السعودية</option>
+           <option selected="selected" value="JO">الأردن</option>
+           <option selected="selected" value="OM">سلطنة عمان</option>
+           <option selected="selected" value="BH">البحرين</option>
+           <option selected="selected" value="KW">الكويت</option>
+          <option selected="selected" value="LB">لبنان</option>
+           <option selected="selected" value="QA">قطر</option>
+           <option selected="selected" value="other">دولة أخرى</option>
+        </select>
+
+
+  <span class="titleSpan"> 
+     برجاء اختيار العرض المناسب
+  </span>
+
+
+
+    </form></div>
+    <div id="son"></div>
+
+    <script>
+        // Set the date we're counting down to
+        
+        var countDownDate = new Date();
+        countDownDate.setMinutes(countDownDate.getMinutes()+23);
+        
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get todays date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now an the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("ustsayac_dakika").innerHTML = minutes + "<br>دقيقة ";
+          document.getElementById("ustsayac_saniye").innerHTML = seconds + "<br>ثانية ";
+          document.getElementById("m").innerHTML=minutes;
+          document.getElementById("s").innerHTML=seconds;
+          document.getElementById("h").innerHTML = "00";
+
+        
+        
+        
+          // If the count down is finished, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Süre Doldu";   
+          }
+        }, 1000);
+        </script>
+
+
 </body>
 </html>

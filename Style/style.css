@@ -26,7 +26,7 @@ body{
         color: #fff;
         padding: 5px;
         }
-        
+
     #ust_saat {
         float: left;
         padding: 7px;
@@ -69,3 +69,165 @@ body{
 .body-img img{
     width: 100%;
 }
+.numbs {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    color: #fff;
+    line-height: normal;
+}
+.bannerCounterDiv {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /*position: relative;*/
+    padding-bottom: 3%;
+    background: #593081;
+}
+.titleSpan {
+    float: left;
+    width: 100%;
+    font-family: 'ProximaLight';
+    font-size: 40px;
+    /*position: relative;*/
+    z-index: 111;
+    margin: 2% 0 0 0;
+    color: #fff;
+}
+.subtitleSpan {
+    float: left;
+    width: 100%;
+    font-family: ProximaBlack;
+    font-size: 40px;
+    /*position: relative;*/
+    font-weight: 100;
+    line-height: 40px;
+    z-index: 111;
+    color: yellow;
+    margin-bottom: 1%;
+}
+
+#vals {
+    /* float: left; */
+    width: 100%;
+    /* font-size: 60px; */
+    color: #FFF;
+    padding: 0;
+    background-color: #c11ca6;
+    font-weight: 900;
+    /* margin: 0; */
+    font-family: ProximaBold;
+    text-align: left;
+    line-height: 62px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 18px;
+    border-radius: 10px;
+    /* margin-left: 12%; */
+}
+#quata2 {
+    float: left;
+    width: 70%;
+    font-size: 60px;
+    background-color: #c11ca6;
+    color: #c5c5c5;
+    font-family: ProximaBold;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    line-height: 62px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.kalanurun {
+    float: left;
+    width: 31%;
+}
+
+#timer {
+    float: left;
+    width: 100%;
+}
+
+.sayac span{
+    width: 100%;
+    font-weight: 900;
+    font-family: 'ProximaBold';
+    font-size: 25px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#vals {
+    /* width: 100%; */
+    margin: 0px auto;
+    font-size: 25px;
+    height: 8rem;
+}
+#h {
+    border-radius: 15px;
+    float: left;
+    line-height: 10vw;
+    width: 27%;
+    font-size: 6vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5% 0 0;
+}
+.sayac {
+    float: left;
+    width: 47%;
+}
+
+.kalanurun span {
+    font-family: 'ProximaBold';
+    font-size: 25px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#m {
+    border-radius: 15px;
+    float: left;
+    line-height: 10vw;
+    width: 27%;
+    font-size: 6vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 5% 0 0;
+}
+#m {
+    float: left;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.numbs {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align: left;
+    color: #fff;
+    line-height: normal;
+}
+#s {
+border-radius: 15px;
+float: left;
+line-height: 10vw;
+width: 27%;
+font-size: 6vw;
+text-align: center;
+font-weight: bold;
+margin: 0 0 0 0;}
+
+#vals text{
+    font-size: 6vw;
+    font-weight: bold;
+padding-top: 1.25rem;}
