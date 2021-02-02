@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+}
+.top-nav
+{
+    border-style: dashed;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    background-color: #e54d42;
+}
+@media screen and (min-width: 410px)
+{
+    .img-click {
+        padding: 8px;
+        width: 29%;
+        float: right;
+    }
+
+	#ustsayac_dakika{
+        float: left;
+        text-align: center;
+        background-color: #2f2f2f;
+        font-size: 13px;
+        font-weight: bolder;
+        color: #fff;
+        padding: 5px;
+        }
+        
+    #ust_saat {
+        float: left;
+        padding: 7px;
+        width: 23%;
+    }
+
+    #ustsayac_saniye{
+        float: left;
+        text-align: center;
+        background-color: #2f2f2f;
+        font-size: 13px;
+        font-weight: bolder;
+        color: #fff;
+        padding: 5px;
+        }
+
+        .takip {
+            float: left;
+            width: 34%;
+            text-align: center;
+            font-weight: 600;
+            color: #fff;
+            padding: 8px;
+            padding-top: 3px;
+            }
+}
+
+.takip{
+    float:right;
+    font-size:14px; 
+}
+.top-clack{
+    float:right;
+}
+
+.body-img{
+    height: 100%;
+    width: 100vw;
+}
+.body-img img{
+    width: 100%;
+}
